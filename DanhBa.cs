@@ -5,14 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Assignment
+    
 {
+    
     [Serializable]
     class DanhBa : Nguoi
     {
         private string sdt1, sdt2, email, ghiChu;
         public DanhBa()
         {
-
+            {
+                
+            }
         }
 
         public DanhBa(string ho, string tenDem, string ten, string namSinh, bool gioiTinh,string sdt1, string sdt2, string email, string ghiChu) : base(ho,tenDem,ten,namSinh,gioiTinh)
